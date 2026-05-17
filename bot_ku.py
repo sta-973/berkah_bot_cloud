@@ -28,7 +28,7 @@ def buat_menu_utama():
     tombol_cs = InlineKeyboardButton("🤖 Demo Bot CS / Toko Online", callback_data="demo_cs")
     tombol_scraping = InlineKeyboardButton("📂 Demo Bot Kirim Laporan Data (CSV)", callback_data="demo_scraping")
     tombol_sekolah = InlineKeyboardButton("🏫 Demo Bot Notifikasi Sekolah", callback_data="demo_sekolah")
-    tombol_order = InlineKeyboardButton("📞 Hubungi Pengembang", url="https://t.me/iwan_developer")
+    tombol_order = InlineKeyboardButton("📞 Hubungi Pengembang", url="https://t.me/BTANJUN")
     markup.add(tombol_cs, tombol_scraping, tombol_sekolah, tombol_order)
     return markup
 
