@@ -1,8 +1,15 @@
 {
-  "rewrites":[
+  "version": 2,
+  "builds": [
     {
-      "source":"/(.*)",
-      "destination":"bot_ku.py"
+      "src": "bot_ku.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "bot_ku.py"
     }
   ]
 }
